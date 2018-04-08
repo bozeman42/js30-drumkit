@@ -30,9 +30,9 @@ html {
   height: 50px;
   margin: 10px;
   padding: 5px;
-  border: solid black 2px;
+  border: solid black 5px;
   border-radius: 5px;
-  transition: 10ms;
+  transition: 100ms;
 }
 
 .instrument {
