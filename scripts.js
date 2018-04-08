@@ -18,28 +18,28 @@ function playSound(event) {
       instrument = 'clap';
       break;
     case 's':
-      instrument = 'boom';
-      break;
-    case 'd':
       instrument = 'hihat';
       break;
-    case 'f':
+    case 'd':
       instrument = 'kick';
       break;
-    case 'j':
+    case 'f':
       instrument = 'openhat';
       break;
-    case 'k':
+    case 'g':
+      instrument = 'boom';
+      break;
+    case 'h':
       instrument = 'ride';
       break;
-    case 'l':
+    case 'j':
       instrument = 'snare';
       break;
-    case ';':
-      instrument = 'tink';
-      break;
-    default:
+    case 'k':
       instrument = 'tom';
+      break;
+    case 'l':
+      instrument = 'tink';
       break;
   }
   new Audio(`sounds/${instrument}.wav`).play();
